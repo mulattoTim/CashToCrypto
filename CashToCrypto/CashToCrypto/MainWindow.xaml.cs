@@ -24,6 +24,9 @@ namespace CashToCrypto
         public MainWindow()
         {
             InitializeComponent();
+            double TimeSinceLastUpdate = 5;
+            //GetBalanceOfACoin("BTC");
+            //UpdateUI(TimeSinceLastUpdate);
         }
     }
 }

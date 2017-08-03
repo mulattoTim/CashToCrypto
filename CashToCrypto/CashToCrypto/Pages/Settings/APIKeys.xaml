@@ -11,6 +11,15 @@
             <StackPanel MinWidth="200">
                 <TextBlock Text="API Keys" Style="{StaticResource Heading2}" />
                 <TextBlock Text="Enter your API Key and Secret Key below to trade" />
+                <Label x:Name="label" Content="Api Key:" VerticalAlignment="Center" Width="100" Height="16" HorizontalAlignment="Left" Margin="10,15,0,0"/>
+                <TextBox x:Name="txtApiKey" TextWrapping="Wrap" Margin="15,5,0,0" Panel.ZIndex="1" Width="300" HorizontalAlignment="Left" />
+                <Label x:Name="label_Copy" Content="Secret Key:" VerticalAlignment="Center" Width="100" Height="16" HorizontalAlignment="Left" Margin="10,15,0,0"/>
+                <TextBox x:Name="txtSecretKey" TextWrapping="Wrap" Margin="15,5,0,0" ToolTip="Api Key" Panel.ZIndex="2" Width="300" HorizontalAlignment="Left" />
+                <Button x:Name="button" Content="Save" Width="76" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="120,20,0,0">
+                    <Button.Effect>
+                        <DropShadowEffect/>
+                    </Button.Effect>
+                </Button>
             </StackPanel>
         </ScrollViewer>
     </Grid>

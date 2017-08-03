@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CashToCrypto.Pages
+namespace CashToCrypto.Pages.Settings
 {
     /// <summary>
-    /// Interaction logic for Home.xaml
+    /// Interaction logic for APIKeys.xaml
     /// </summary>
-    public partial class Home : UserControl
+    public partial class APIKeys : UserControl
     {
-        public Home()
+        public APIKeys()
         {
             InitializeComponent();
-        }
-
-        private void txt_tickerValue_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }
